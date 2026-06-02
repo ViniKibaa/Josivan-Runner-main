@@ -174,13 +174,20 @@ public class player_movement : MonoBehaviour
 
             TriggerGameOver();
         }
-        else
-        {
-            SoundManager.instance.PlaySFX(SoundManager.instance.hurtSound);
+     else
+          {
+    SoundManager.instance.PlaySFX(SoundManager.instance.hurtSound);
 
-            transform.position = startPoint;
+    transform.position = startPoint;
 
-            body.linearVelocity = Vector2.zero;
+    body.linearVelocity = Vector2.zero;
+
+    EnemyAIBoss boss = FindFirstObjectByType<EnemyAIBoss>();
+
+    if (boss != null)
+    {
+        boss.ResetBoss();
+    }
         }
     }
 
