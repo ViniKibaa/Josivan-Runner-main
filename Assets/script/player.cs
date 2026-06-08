@@ -162,7 +162,7 @@ public class player_movement : MonoBehaviour
         }
     }
 
-    private void TakeDamage()
+    public void TakeDamage()
     {
         currentHealth--;
 
