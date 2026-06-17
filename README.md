@@ -81,12 +81,6 @@ git clone https://github.com/ViniKibaa/Josivan-Runner-main.git
 
 ---
 
-## 📸 Demonstração
-
-> Adicione aqui capturas de tela ou um GIF do jogo para demonstrar a jogabilidade.
-
----
-
 ## 👨‍💻 Autor
 
 **José Vinicius Pereira de Oliveira**
